@@ -1,7 +1,7 @@
 import React from "react";
 const ProjectCard = ({ title, main ,image, Demolink, codelink}) => {
   return (
-    <div className="p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
+    <div className="text-white p-3 md:p-6 flex flex-col w-80 bg-[#0c0e19] shadow-xl shadow-slate-900 rounded-2xl">
       <img src={image} alt="" className="p-4" />
       <h3 className="px-4 text-xl md:text-2xl font-bold leading-normal">
         {title}

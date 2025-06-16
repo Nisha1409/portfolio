@@ -1,20 +1,20 @@
 import React from "react";
+import computergirl from "../assets/computergirl.gif"; // Adjust the path to your GIF
+
 const About = () => {
     return (
-        <div
-            id="About"
-            className="text-white md:flex overflow-hidden items-center md:flex-wrap md:justify-center bg-black shadow-xl mx-0 md:mx-20 bg-opacity-30 rounded-lg p-12"
-        >
-            <div>
-                <h2 className="text-2xl md:text-4xl font-bold">About Me</h2>
-                <p className="text-md md:text-md leading-tight mt-3">
-                    I am a dedicated developer with a passion for creating efficient, user-friendly 
-                    applications. With hands-on experience in JavaScript, React.js, Tailwind CSS,
-                     ML Algorithms, Basic C, Java, Pyhton.
-                    I specialize in building responsive and scalable solutions. I continuously strive 
-                    to stay updated with the latest trends, delivering clean and innovative code to 
-                    solve real-world problems.
-                </p>
+        <div id="About" className=" bg-black p-8 md:pt-20 flex justify-center">
+            <div className="bg-gray-200 w-full lg:w-1/2 p-6 sm:p-8 rounded-lg md:rounded-l-lg md:rounded-r-none shadow-[0px_0px_25px_rgba(255,255,255,0.4)] flex flex-col md:flex-row items-center gap-6">
+                <div className="flex-1">
+                    <h2 className="text-gray-900 text-xl md:text-2xl lg:text-3xl font-extrabold tracking-tight text-center">About Me</h2>
+                    <p className="text-gray-900 text-sm sm:text-lg leading-relaxed mt-4 text-left">
+                        I’m a passionate <span className="font-bold">Frontend & Full-stack MERN developer</span> who thrives on crafting efficient, scalable, and user-friendly applications. With expertise in React.js, Express.js, Database Management, Tailwind CSS, AI-driven models, ML algorithms, and API integrations, I love blending logic with creativity to enhance user experience. My problem-solving mindset, adaptability, and attention to detail ensure polished, high-performance solutions. Enthusiastic and always eager to learn, I believe in building tech that feels seamless, intuitive, and impactful.
+                    </p>
+                </div>
+
+            </div>
+            <div className="hidden lg:block w-1/4 h-auto flex items-stretch">
+                <img src={computergirl} alt="GIF" className="w-full h-full rounded-r-lg shadow-md object-fill" />
             </div>
 
         </div>

@@ -2,12 +2,12 @@ import React, { useState } from 'react'
 import {  GiHamburgerMenu } from 'react-icons/gi';
 import { IoMdClose } from 'react-icons/io';
 
+
 const Navbar = () => {
   const [menu, openMenu]=useState(false);
   const [showMenu, setShowMenu]=useState(true);
   return (
-    <nav className='flex flex-wrap justify-between md:items-center text-white px-10 pt-6 md:px-20'>
-    <span className='text-xl font-bold tracking-wide'>Portfolio</span>
+    <nav className="bg-black bg-opacity-40 text-white flex flex-wrap justify-end md:items-center px-10 pt-6 md:px-20" >
     <ul 
     className={`${menu ? 'block':'hidden'} mx-24 p-y2 mt-4 font-semibold md:mt-5 bg-black rounded-xl px-2 bg-opacity-30 
     md:border-none text-center md:bg-transparent md:static md:mx-0 md:flex gap-6`}>
