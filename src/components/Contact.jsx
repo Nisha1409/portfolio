@@ -1,7 +1,7 @@
 import React from "react";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLinkedin } from "react-icons/ci";
-import { FaGithub , FaPhone} from "react-icons/fa";
+import { FaGithub, FaPhone } from "react-icons/fa";
 
 const Contact = () => {
   return (
@@ -10,8 +10,10 @@ const Contact = () => {
       className="flex justify-around bg-[#0c0e19] text-white p-10 md:p-12 items-center"
     >
       <div>
-        
-        <h1 className="text-2xl md:text-4xl font-bold">Contact</h1>
+
+        <h1 className="text-3xl md:text-5xl font-bold text-gray-200 tracking-wide">
+          Contact
+        </h1>
         <p className="text-sm md:text-xl font-normal">
           Feel Free To reach out!
         </p>
@@ -20,7 +22,10 @@ const Contact = () => {
       <ul className="text-sm md:text-lg">
         <li className="flex gap-1 items-center">
           <MdOutlineEmail size={20} />
-          <a href="mailto:nbhartiya@gmail.com">nbhartiya200@gmail.com</a>
+          <a href="mailto:nbhartiya@gmail.com" className="text-blue-300 hover:text-blue-500">
+            nbhartiya200@gmail.com
+          </a>
+
         </li>
         <li className="flex gap-1 items-center">
           <CiLinkedin />

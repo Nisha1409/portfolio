@@ -15,20 +15,26 @@ const Experience = () => {
           <div className="bg-gray-200 text-black max-w-md mx-auto rounded-lg p-6 shadow-inner hover:scale-105 transition-transform duration-300 ease-in-out">
             <h2 className="text-xl font-bold ">IT Intern, Distance Education School (SODE)</h2>
             <p className="text-sm font-medium">Jun - Aug 2024</p>
-            <p className="text-sm mt-2">Worked as a Frontend Developer, building a responsive Interface for CRM.</p>
+            <p className="font-mono text-sm mt-2">Worked as a Frontend Developer, building a responsive Interface for CRM.</p>
           </div>
 
           {/* Second Experience Card */}
           <div className="bg-gray-200 text-black max-w-md mx-auto rounded-lg p-6 shadow-inner hover:scale-105 transition-transform duration-300 ease-in-out">
             <h2 className="text-xl font-bold">UHack 2.0</h2>
             <p className="text-sm font-medium">Oct 2023</p>
-            <p className="text-sm mt-2">Worked on a project to identify diseases in plants, using an image classification model with CNN.</p>
+            <p className="font-mono text-sm mt-2">Worked on a project to identify diseases in plants, using an image classification model with CNN.</p>
+          </div>
+          <div className="bg-gray-200 text-black max-w-md mx-auto rounded-lg p-6 shadow-inner hover:scale-105 transition-transform duration-300 ease-in-out">
+            <h2 className="text-xl font-bold">Web Development Training- Internshala</h2>
+            <p className="text-sm font-medium">2023</p>
+            <p className="font-mono text-sm mt-2">Completed a dynamic E-commerce website project utilizing React.js for frontend development and
+              Node.js for backend functionality</p>
           </div>
         </div>
 
       </div>
-      </div>
-      );
+    </div>
+  );
 };
 
-      export default Experience;
+export default Experience;
