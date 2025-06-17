@@ -6,7 +6,7 @@ import { FaGithub, FaPhone } from "react-icons/fa";
 const Contact = () => {
   return (
     <div
-      id="Contact"
+      id="ContactMe"
       className="flex flex-col md:flex-row justify-center bg-[#0c0e19] text-white p-6 md:p-12 items-center gap-6 md:gap-20"
     >
       <div className="text-center md:text-left">
