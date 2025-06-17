@@ -7,6 +7,7 @@ import amazon_img from "../../assets/amazon_img.png";
 import netflix_img from "../../assets/netflix_img.png";
 import pokemon_img from "../../assets/pokemon_img.png";
 import cinemate_img from "../../assets/cinemate_img.png";
+import drivelearn_img from "../../assets/drivelearn_img.png";
 
 const projects = [
   {
@@ -19,8 +20,8 @@ const projects = [
   {
     title: "DriveLearn",
     main: "DriveLearn is an AI-powered tutor built using Next.js, with PostgreSQL for user authentication and the Gemini model to provide tailored answers based on the user's board.",
-    image: pokemon_img,
-    Demolink: "https://nisha1409.github.io/PokemonProject/",
+    image: drivelearn_img,
+    Demolink: "https://drive-learn-seven.vercel.app/",
     codelink: "https://github.com/Nisha1409/DriveLearn.git",
   },
   {
