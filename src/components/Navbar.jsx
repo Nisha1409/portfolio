@@ -21,7 +21,7 @@ const Navbar = () => {
 
 
       {/* Menu Toggle Buttons */}
-      <div className="absolute right-6 top-6 cursor-pointer md:hidden z-50">
+      <div className="absolute right-8 top-6 cursor-pointer md:hidden z-50">
         {menu ? (
           <IoMdClose size={30} onClick={() => setMenu(false)} />
         ) : (
