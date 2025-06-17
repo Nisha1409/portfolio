@@ -25,7 +25,7 @@ const Home = () => {
                             Contact Me
                         </button>
                     </a>
-                    <a href="/portfolio/Nisha_Bhartiya.pdf" target="_blank">
+                    <a href="/Nisha_Bhartiya.pdf" target="_blank">
                         <button className="mt-5 text-white py-2 px-3 text-sm md:text-lg md:py-2 md:px-4 bg-[#465697] hover:bg-[#334275] hover:scale-105 duration-300 shadow-lg rounded-3xl">
                             Download CV
                         </button>
