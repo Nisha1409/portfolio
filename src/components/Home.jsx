@@ -3,8 +3,8 @@ import img1 from '../assets/img1.jpg'; // Adjust the path as necessary
 
 const Home = () => {
     return (
-        <div className=" h-screen transition-opacity duration-700 text-gray-200 flex flex-col md:flex-row w-full justify-center items-start gap-8 md:gap-8 p-10 md:p-20">
-            <div className="w-1/3 md:w-1/4 flex justify-center md:mt-12 animate-scaleUp">
+        <div className=" h-screen transition-opacity duration-700 text-gray-200 flex flex-col md:flex-row w-full justify-center items-start gap-8 md:gap-8 p-10 md:p-15">
+            <div className="w-1/3 md:w-1/5 flex justify-center md:mt-12 animate-scaleUp">
                 <img className="w-full sm:w-4/5 md:w-full rounded-full" src={img1} alt="Profile" />
             </div>
 
